@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=东方旧作启动器
+GenericName=东方旧作启动器
+Comment=运用dosbox-x启动东方旧作
+Exec=/bin/bash /usr/local/games/tho_old/Start.sh
+TryExec=/usr/local/games/tho_old/
+Icon=./game.png
+Terminal=false
+Type=Game
