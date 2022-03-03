@@ -20,7 +20,7 @@ do
    wannaplay=0
 
    read wannaplay
-
+   cd /usr/local/games/tho_old/
    case $wannaplay in (1)
        cd ./dosbox-x
        rm FREECG98.bmp
