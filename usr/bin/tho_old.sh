@@ -20,57 +20,48 @@ do
    wannaplay=0
 
    read wannaplay
-   cd /usr/local/games/tho_old/
+   cd /usr/local/games/tho_old/dosbox-x
    case $wannaplay in (1)
-       cd ./dosbox-x
        rm FREECG98.bmp
        cp font_jp.bmp FREECG98.bmp
        dosbox-x -conf th01_jp.conf
        ;;
        (2)
-       cd ./dosbox-x
        rm FREECG98.bmp
        cp font_jp.bmp FREECG98.bmp
        dosbox-x -conf th02_jp.conf
        ;;
        (3)
-       cd ./dosbox-x
        rm FREECG98.bmp
        cp font_cn.bmp FREECG98.bmp
        dosbox-x -conf th02_cn.conf
        ;;
        （4)
-       cd ./dosbox-x
        rm FREECG98.bmp
        cp font_jp.bmp FREECG98.bmp
        dosbox-x -conf th03_jp.conf
        ;;
        （5)
-       cd ./dosbox-x
        rm FREECG98.bmp
        cp font_cn.bmp FREECG98.bmp
        dosbox-x -conf th03_cn.conf
        ;;
        (6)
-       cd ./dosbox-x
        rm FREECG98.bmp
        cp font_jp.bmp FREECG98.bmp
        dosbox-x -conf th04_jp.conf
        ;;
        (7)
-       cd ./dosbox-x
        rm FREECG98.bmp
        cp font_cn.bmp FREECG98.bmp
        dosbox-x -conf th04_cn.conf
        ;;
        (8)
-       cd ./dosbox-x
        rm FREECG98.bmp
        cp font_jp.bmp FREECG98.bmp
        dosbox-x -conf th05_jp.conf
        ;;
        (9)
-       cd ./dosbox-x
        rm FREECG98.bmp
        cp font_cn.bmp FREECG98.bmp
        dosbox-x -conf th05_cn.conf
